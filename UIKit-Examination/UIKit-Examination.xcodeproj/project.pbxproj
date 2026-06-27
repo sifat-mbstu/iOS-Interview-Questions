@@ -13,6 +13,7 @@
 		DCD75C322FEFBC4C00991A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD75C232FEFBC4C00991A6D /* AppDelegate.swift */; };
 		DCD75C332FEFBC4C00991A6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD75C2B2FEFBC4C00991A6D /* SceneDelegate.swift */; };
 		DCD75C342FEFBC4C00991A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD75C2C2FEFBC4C00991A6D /* ViewController.swift */; };
+		DCD75C3D2FEFD13900991A6D /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = DCD75C3C2FEFD13900991A6D /* Documentation.docc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		DCD75C2C2FEFBC4C00991A6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCD75C382FEFBCB600991A6D /* ARC-Modifiers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ARC-Modifiers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCD75C392FEFC7B900991A6D /* More-Arc-Modifiers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "More-Arc-Modifiers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DCD75C3C2FEFD13900991A6D /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,7 @@
 		DCD75C2D2FEFBC4C00991A6D /* UIKit-Examination */ = {
 			isa = PBXGroup;
 			children = (
-				DCD75C352FEFBC4F00991A6D /* Weak-Strong-Unowned */,
+				DCD75C352FEFBC4F00991A6D /* ARC-Ownership-Modifiers */,
 				DCD75C232FEFBC4C00991A6D /* AppDelegate.swift */,
 				DCD75C242FEFBC4C00991A6D /* Assets.xcassets */,
 				DCD75C252FEFBC4C00991A6D /* Info.plist */,
@@ -68,17 +70,18 @@
 				DCD75C2A2FEFBC4C00991A6D /* MyPlayground.playground */,
 				DCD75C2B2FEFBC4C00991A6D /* SceneDelegate.swift */,
 				DCD75C2C2FEFBC4C00991A6D /* ViewController.swift */,
+				DCD75C3C2FEFD13900991A6D /* Documentation.docc */,
 			);
 			path = "UIKit-Examination";
 			sourceTree = "<group>";
 		};
-		DCD75C352FEFBC4F00991A6D /* Weak-Strong-Unowned */ = {
+		DCD75C352FEFBC4F00991A6D /* ARC-Ownership-Modifiers */ = {
 			isa = PBXGroup;
 			children = (
 				DCD75C382FEFBCB600991A6D /* ARC-Modifiers.playground */,
 				DCD75C392FEFC7B900991A6D /* More-Arc-Modifiers.playground */,
 			);
-			path = "Weak-Strong-Unowned";
+			path = "ARC-Ownership-Modifiers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +161,7 @@
 				DCD75C322FEFBC4C00991A6D /* AppDelegate.swift in Sources */,
 				DCD75C332FEFBC4C00991A6D /* SceneDelegate.swift in Sources */,
 				DCD75C342FEFBC4C00991A6D /* ViewController.swift in Sources */,
+				DCD75C3D2FEFD13900991A6D /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
