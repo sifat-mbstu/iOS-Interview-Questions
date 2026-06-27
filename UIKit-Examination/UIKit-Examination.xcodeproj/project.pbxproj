@@ -26,6 +26,7 @@
 		DCD75C2B2FEFBC4C00991A6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DCD75C2C2FEFBC4C00991A6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCD75C382FEFBCB600991A6D /* ARC-Modifiers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ARC-Modifiers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DCD75C392FEFC7B900991A6D /* More-Arc-Modifiers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "More-Arc-Modifiers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				DCD75C382FEFBCB600991A6D /* ARC-Modifiers.playground */,
+				DCD75C392FEFC7B900991A6D /* More-Arc-Modifiers.playground */,
 			);
 			path = "Weak-Strong-Unowned";
 			sourceTree = "<group>";
