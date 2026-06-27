@@ -19,6 +19,11 @@ struct ContentView: View {
     }
 }
 
+func returnView() -> any View {
+    return Text("w3e")
+    return Rectangle()
+}
+
 #Preview {
     ContentView()
 }

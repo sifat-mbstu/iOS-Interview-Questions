@@ -6,30 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DCD75C2E2FEFBC4C00991A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD75C242FEFBC4C00991A6D /* Assets.xcassets */; };
+		DCD75C302FEFBC4C00991A6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD75C272FEFBC4C00991A6D /* LaunchScreen.storyboard */; };
+		DCD75C312FEFBC4C00991A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD75C292FEFBC4C00991A6D /* Main.storyboard */; };
+		DCD75C322FEFBC4C00991A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD75C232FEFBC4C00991A6D /* AppDelegate.swift */; };
+		DCD75C332FEFBC4C00991A6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD75C2B2FEFBC4C00991A6D /* SceneDelegate.swift */; };
+		DCD75C342FEFBC4C00991A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD75C2C2FEFBC4C00991A6D /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		DCD75C062FEF859800991A6D /* UIKit-Examination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Examination.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD75C232FEFBC4C00991A6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCD75C242FEFBC4C00991A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCD75C252FEFBC4C00991A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD75C262FEFBC4C00991A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCD75C282FEFBC4C00991A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCD75C2A2FEFBC4C00991A6D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DCD75C2B2FEFBC4C00991A6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCD75C2C2FEFBC4C00991A6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCD75C382FEFBCB600991A6D /* ARC-Modifiers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ARC-Modifiers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		DCD75C182FEF859C00991A6D /* Exceptions for "UIKit-Examination" folder in "UIKit-Examination" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = DCD75C052FEF859800991A6D /* UIKit-Examination */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		DCD75C082FEF859800991A6D /* UIKit-Examination */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				DCD75C182FEF859C00991A6D /* Exceptions for "UIKit-Examination" folder in "UIKit-Examination" target */,
-			);
-			path = "UIKit-Examination";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DCD75C032FEF859800991A6D /* Frameworks */ = {
@@ -45,7 +42,7 @@
 		DCD75BFD2FEF859800991A6D = {
 			isa = PBXGroup;
 			children = (
-				DCD75C082FEF859800991A6D /* UIKit-Examination */,
+				DCD75C2D2FEFBC4C00991A6D /* UIKit-Examination */,
 				DCD75C072FEF859800991A6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +53,30 @@
 				DCD75C062FEF859800991A6D /* UIKit-Examination.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DCD75C2D2FEFBC4C00991A6D /* UIKit-Examination */ = {
+			isa = PBXGroup;
+			children = (
+				DCD75C352FEFBC4F00991A6D /* Weak-Strong-Unowned */,
+				DCD75C232FEFBC4C00991A6D /* AppDelegate.swift */,
+				DCD75C242FEFBC4C00991A6D /* Assets.xcassets */,
+				DCD75C252FEFBC4C00991A6D /* Info.plist */,
+				DCD75C272FEFBC4C00991A6D /* LaunchScreen.storyboard */,
+				DCD75C292FEFBC4C00991A6D /* Main.storyboard */,
+				DCD75C2A2FEFBC4C00991A6D /* MyPlayground.playground */,
+				DCD75C2B2FEFBC4C00991A6D /* SceneDelegate.swift */,
+				DCD75C2C2FEFBC4C00991A6D /* ViewController.swift */,
+			);
+			path = "UIKit-Examination";
+			sourceTree = "<group>";
+		};
+		DCD75C352FEFBC4F00991A6D /* Weak-Strong-Unowned */ = {
+			isa = PBXGroup;
+			children = (
+				DCD75C382FEFBCB600991A6D /* ARC-Modifiers.playground */,
+			);
+			path = "Weak-Strong-Unowned";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +93,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				DCD75C082FEF859800991A6D /* UIKit-Examination */,
 			);
 			name = "UIKit-Examination";
 			packageProductDependencies = (
@@ -122,6 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD75C2E2FEFBC4C00991A6D /* Assets.xcassets in Resources */,
+				DCD75C302FEFBC4C00991A6D /* LaunchScreen.storyboard in Resources */,
+				DCD75C312FEFBC4C00991A6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +153,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD75C322FEFBC4C00991A6D /* AppDelegate.swift in Sources */,
+				DCD75C332FEFBC4C00991A6D /* SceneDelegate.swift in Sources */,
+				DCD75C342FEFBC4C00991A6D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCD75C272FEFBC4C00991A6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD75C262FEFBC4C00991A6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DCD75C292FEFBC4C00991A6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD75C282FEFBC4C00991A6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DCD75C1A2FEF859C00991A6D /* Debug */ = {
