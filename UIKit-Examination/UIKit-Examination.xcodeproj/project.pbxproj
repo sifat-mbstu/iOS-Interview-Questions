@@ -28,6 +28,16 @@
 		DCD75C2C2FEFBC4C00991A6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCD75C382FEFBCB600991A6D /* ARC-Modifiers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ARC-Modifiers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCD75C392FEFC7B900991A6D /* More-Arc-Modifiers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "More-Arc-Modifiers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FA0000000000000000000012 /* Without-Single-Responsibility.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Without-Single-Responsibility.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FA0000000000000000000013 /* Single-Responsibility.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Single-Responsibility.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FA0000000000000000000015 /* Without-Open-Closed.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Without-Open-Closed.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FA0000000000000000000016 /* Open-Closed.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Open-Closed.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FA0000000000000000000018 /* Without-Liskov-Substitution.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Without-Liskov-Substitution.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FA0000000000000000000019 /* Liskov-Substitution.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Liskov-Substitution.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FA000000000000000000001B /* Without-Interface-Segregation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Without-Interface-Segregation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FA000000000000000000001C /* Improved-Interface-Segregation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Improved-Interface-Segregation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FA000000000000000000001E /* WithoutDependencyInversion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = WithoutDependencyInversion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FA000000000000000000001F /* DependencyInversion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DependencyInversion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCD75C3C2FEFD13900991A6D /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				DCD75C352FEFBC4F00991A6D /* ARC-Ownership-Modifiers */,
+				FA0000000000000000000010 /* SOLID-Principles */,
 				DCD75C232FEFBC4C00991A6D /* AppDelegate.swift */,
 				DCD75C242FEFBC4C00991A6D /* Assets.xcassets */,
 				DCD75C252FEFBC4C00991A6D /* Info.plist */,
@@ -82,6 +93,63 @@
 				DCD75C392FEFC7B900991A6D /* More-Arc-Modifiers.playground */,
 			);
 			path = "ARC-Ownership-Modifiers";
+			sourceTree = "<group>";
+		};
+		FA0000000000000000000010 /* SOLID-Principles */ = {
+			isa = PBXGroup;
+			children = (
+				FA0000000000000000000011 /* Single-Responsibility */,
+				FA0000000000000000000014 /* Open-Closed */,
+				FA0000000000000000000017 /* Liskov-Substitution */,
+				FA000000000000000000001A /* Interface-Segregation */,
+				FA000000000000000000001D /* Dependency-Inversion */,
+			);
+			path = "SOLID-Principles";
+			sourceTree = "<group>";
+		};
+		FA0000000000000000000011 /* Single-Responsibility */ = {
+			isa = PBXGroup;
+			children = (
+				FA0000000000000000000012 /* Without-Single-Responsibility.playground */,
+				FA0000000000000000000013 /* Single-Responsibility.playground */,
+			);
+			path = "Single-Responsibility";
+			sourceTree = "<group>";
+		};
+		FA0000000000000000000014 /* Open-Closed */ = {
+			isa = PBXGroup;
+			children = (
+				FA0000000000000000000015 /* Without-Open-Closed.playground */,
+				FA0000000000000000000016 /* Open-Closed.playground */,
+			);
+			path = "Open-Closed";
+			sourceTree = "<group>";
+		};
+		FA0000000000000000000017 /* Liskov-Substitution */ = {
+			isa = PBXGroup;
+			children = (
+				FA0000000000000000000018 /* Without-Liskov-Substitution.playground */,
+				FA0000000000000000000019 /* Liskov-Substitution.playground */,
+			);
+			path = "Liskov-Substitution";
+			sourceTree = "<group>";
+		};
+		FA000000000000000000001A /* Interface-Segregation */ = {
+			isa = PBXGroup;
+			children = (
+				FA000000000000000000001B /* Without-Interface-Segregation.playground */,
+				FA000000000000000000001C /* Improved-Interface-Segregation.playground */,
+			);
+			path = "Interface-Segregation";
+			sourceTree = "<group>";
+		};
+		FA000000000000000000001D /* Dependency-Inversion */ = {
+			isa = PBXGroup;
+			children = (
+				FA000000000000000000001E /* WithoutDependencyInversion.playground */,
+				FA000000000000000000001F /* DependencyInversion.playground */,
+			);
+			path = "Dependency-Inversion";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
