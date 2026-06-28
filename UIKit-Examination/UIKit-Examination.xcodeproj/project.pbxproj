@@ -30,6 +30,8 @@
 		DCD75C392FEFC7B900991A6D /* More-Arc-Modifiers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "More-Arc-Modifiers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCD75C3C2FEFD13900991A6D /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		DCD75C3E2FEFF93600991A6D /* At-A-Glance-SOLID.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "At-A-Glance-SOLID.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DCD75C402FF0D6F300991A6D /* Defer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Defer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DCD75C412FF0D9E900991A6D /* Defer-Questions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Defer-Questions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FA0000000000000000000012 /* Without-Single-Responsibility.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Without-Single-Responsibility.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FA0000000000000000000013 /* Single-Responsibility.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Single-Responsibility.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FA0000000000000000000015 /* Without-Open-Closed.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Without-Open-Closed.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -72,6 +74,7 @@
 		DCD75C2D2FEFBC4C00991A6D /* UIKit-Examination */ = {
 			isa = PBXGroup;
 			children = (
+				DCD75C3F2FF0D6D900991A6D /* Defer */,
 				DCD75C352FEFBC4F00991A6D /* ARC-Ownership-Modifiers */,
 				FA0000000000000000000010 /* SOLID-Principles */,
 				DCD75C232FEFBC4C00991A6D /* AppDelegate.swift */,
@@ -94,6 +97,15 @@
 				DCD75C392FEFC7B900991A6D /* More-Arc-Modifiers.playground */,
 			);
 			path = "ARC-Ownership-Modifiers";
+			sourceTree = "<group>";
+		};
+		DCD75C3F2FF0D6D900991A6D /* Defer */ = {
+			isa = PBXGroup;
+			children = (
+				DCD75C402FF0D6F300991A6D /* Defer.playground */,
+				DCD75C412FF0D9E900991A6D /* Defer-Questions.playground */,
+			);
+			path = Defer;
 			sourceTree = "<group>";
 		};
 		FA0000000000000000000010 /* SOLID-Principles */ = {
