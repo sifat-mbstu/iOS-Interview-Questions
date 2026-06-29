@@ -54,3 +54,40 @@ output:
  step1
  
  */
+
+// MARK: - Third Question
+
+
+func question3() {
+    print("step0")
+    defer {
+       print("step1")
+    }
+    
+    defer {
+        defer {
+           print("step5")
+        }
+       print("step2")
+    }
+    
+    defer {
+       print("step3")
+    }
+    
+    print("step4")
+}
+
+question3()
+
+/*
+output:
+ 
+ step0
+ step4
+ step3
+ step2
+ step5
+ step1
+ 
+ */
