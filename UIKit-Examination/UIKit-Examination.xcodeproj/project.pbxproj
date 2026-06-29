@@ -32,6 +32,12 @@
 		DCD75C3E2FEFF93600991A6D /* At-A-Glance-SOLID.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "At-A-Glance-SOLID.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCD75C402FF0D6F300991A6D /* Defer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Defer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCD75C412FF0D9E900991A6D /* Defer-Questions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Defer-Questions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DCD75C4A2FF248EF00991A6D /* Closure - (Int) -> (Int).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Closure - (Int) -> (Int).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DCD75C4C2FF248EF00991A6D /* Doc-Escaping-NonEscaping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Doc-Escaping-NonEscaping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DCD75C4D2FF248EF00991A6D /* Escaping-NonEscaping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Escaping-NonEscaping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DCD75C4E2FF248EF00991A6D /* Exp-Escaping-NonEscaping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exp-Escaping-NonEscaping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DCD75C502FF248EF00991A6D /* Optional-Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Optional-Closures.playground"; sourceTree = "<group>"; };
+		DCD75C522FF248EF00991A6D /* Trailing Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Trailing Closures.playground"; sourceTree = "<group>"; };
 		FA0000000000000000000012 /* Without-Single-Responsibility.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Without-Single-Responsibility.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FA0000000000000000000013 /* Single-Responsibility.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Single-Responsibility.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FA0000000000000000000015 /* Without-Open-Closed.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Without-Open-Closed.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -74,18 +80,19 @@
 		DCD75C2D2FEFBC4C00991A6D /* UIKit-Examination */ = {
 			isa = PBXGroup;
 			children = (
-				DCD75C3F2FF0D6D900991A6D /* Defer */,
-				DCD75C352FEFBC4F00991A6D /* ARC-Ownership-Modifiers */,
-				FA0000000000000000000010 /* SOLID-Principles */,
+				DCD75C542FF248EF00991A6D /* All About Closure */,
 				DCD75C232FEFBC4C00991A6D /* AppDelegate.swift */,
+				DCD75C352FEFBC4F00991A6D /* ARC-Ownership-Modifiers */,
 				DCD75C242FEFBC4C00991A6D /* Assets.xcassets */,
+				DCD75C3F2FF0D6D900991A6D /* Defer */,
+				DCD75C3C2FEFD13900991A6D /* Documentation.docc */,
 				DCD75C252FEFBC4C00991A6D /* Info.plist */,
 				DCD75C272FEFBC4C00991A6D /* LaunchScreen.storyboard */,
 				DCD75C292FEFBC4C00991A6D /* Main.storyboard */,
 				DCD75C2A2FEFBC4C00991A6D /* MyPlayground.playground */,
 				DCD75C2B2FEFBC4C00991A6D /* SceneDelegate.swift */,
+				FA0000000000000000000010 /* SOLID-Principles */,
 				DCD75C2C2FEFBC4C00991A6D /* ViewController.swift */,
-				DCD75C3C2FEFD13900991A6D /* Documentation.docc */,
 			);
 			path = "UIKit-Examination";
 			sourceTree = "<group>";
@@ -106,6 +113,51 @@
 				DCD75C412FF0D9E900991A6D /* Defer-Questions.playground */,
 			);
 			path = Defer;
+			sourceTree = "<group>";
+		};
+		DCD75C4B2FF248EF00991A6D /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				DCD75C4A2FF248EF00991A6D /* Closure - (Int) -> (Int).playground */,
+			);
+			path = Closure;
+			sourceTree = "<group>";
+		};
+		DCD75C4F2FF248EF00991A6D /* Escaping-NonEscaping */ = {
+			isa = PBXGroup;
+			children = (
+				DCD75C4C2FF248EF00991A6D /* Doc-Escaping-NonEscaping.playground */,
+				DCD75C4D2FF248EF00991A6D /* Escaping-NonEscaping.playground */,
+				DCD75C4E2FF248EF00991A6D /* Exp-Escaping-NonEscaping.playground */,
+			);
+			path = "Escaping-NonEscaping";
+			sourceTree = "<group>";
+		};
+		DCD75C512FF248EF00991A6D /* Optional Closure */ = {
+			isa = PBXGroup;
+			children = (
+				DCD75C502FF248EF00991A6D /* Optional-Closures.playground */,
+			);
+			path = "Optional Closure";
+			sourceTree = "<group>";
+		};
+		DCD75C532FF248EF00991A6D /* Trailing Closure */ = {
+			isa = PBXGroup;
+			children = (
+				DCD75C522FF248EF00991A6D /* Trailing Closures.playground */,
+			);
+			path = "Trailing Closure";
+			sourceTree = "<group>";
+		};
+		DCD75C542FF248EF00991A6D /* All About Closure */ = {
+			isa = PBXGroup;
+			children = (
+				DCD75C4B2FF248EF00991A6D /* Closure */,
+				DCD75C4F2FF248EF00991A6D /* Escaping-NonEscaping */,
+				DCD75C512FF248EF00991A6D /* Optional Closure */,
+				DCD75C532FF248EF00991A6D /* Trailing Closure */,
+			);
+			path = "All About Closure";
 			sourceTree = "<group>";
 		};
 		FA0000000000000000000010 /* SOLID-Principles */ = {
