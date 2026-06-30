@@ -14,6 +14,8 @@
 		DCD75C332FEFBC4C00991A6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD75C2B2FEFBC4C00991A6D /* SceneDelegate.swift */; };
 		DCD75C342FEFBC4C00991A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD75C2C2FEFBC4C00991A6D /* ViewController.swift */; };
 		DCD75C3D2FEFD13900991A6D /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = DCD75C3C2FEFD13900991A6D /* Documentation.docc */; };
+		DCD75C582FF3973D00991A6D /* FrameVsBound.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD75C572FF3973D00991A6D /* FrameVsBound.storyboard */; };
+		DCD75C5A2FF397B800991A6D /* FrameVsBoundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD75C592FF397B800991A6D /* FrameVsBoundVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		DCD75C4E2FF248EF00991A6D /* Exp-Escaping-NonEscaping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exp-Escaping-NonEscaping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCD75C502FF248EF00991A6D /* Optional-Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Optional-Closures.playground"; sourceTree = "<group>"; };
 		DCD75C522FF248EF00991A6D /* Trailing Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Trailing Closures.playground"; sourceTree = "<group>"; };
+		DCD75C572FF3973D00991A6D /* FrameVsBound.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FrameVsBound.storyboard; sourceTree = "<group>"; };
+		DCD75C592FF397B800991A6D /* FrameVsBoundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameVsBoundVC.swift; sourceTree = "<group>"; };
 		FA0000000000000000000012 /* Without-Single-Responsibility.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Without-Single-Responsibility.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FA0000000000000000000013 /* Single-Responsibility.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Single-Responsibility.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FA0000000000000000000015 /* Without-Open-Closed.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Without-Open-Closed.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -80,18 +84,15 @@
 		DCD75C2D2FEFBC4C00991A6D /* UIKit-Examination */ = {
 			isa = PBXGroup;
 			children = (
-				DCD75C542FF248EF00991A6D /* All About Closure */,
+				DCD75C552FF396FC00991A6D /* Topics */,
 				DCD75C232FEFBC4C00991A6D /* AppDelegate.swift */,
-				DCD75C352FEFBC4F00991A6D /* ARC-Ownership-Modifiers */,
 				DCD75C242FEFBC4C00991A6D /* Assets.xcassets */,
-				DCD75C3F2FF0D6D900991A6D /* Defer */,
 				DCD75C3C2FEFD13900991A6D /* Documentation.docc */,
 				DCD75C252FEFBC4C00991A6D /* Info.plist */,
 				DCD75C272FEFBC4C00991A6D /* LaunchScreen.storyboard */,
 				DCD75C292FEFBC4C00991A6D /* Main.storyboard */,
 				DCD75C2A2FEFBC4C00991A6D /* MyPlayground.playground */,
 				DCD75C2B2FEFBC4C00991A6D /* SceneDelegate.swift */,
-				FA0000000000000000000010 /* SOLID-Principles */,
 				DCD75C2C2FEFBC4C00991A6D /* ViewController.swift */,
 			);
 			path = "UIKit-Examination";
@@ -158,6 +159,27 @@
 				DCD75C532FF248EF00991A6D /* Trailing Closure */,
 			);
 			path = "All About Closure";
+			sourceTree = "<group>";
+		};
+		DCD75C552FF396FC00991A6D /* Topics */ = {
+			isa = PBXGroup;
+			children = (
+				DCD75C562FF3971400991A6D /* FrameVsBound */,
+				DCD75C542FF248EF00991A6D /* All About Closure */,
+				DCD75C352FEFBC4F00991A6D /* ARC-Ownership-Modifiers */,
+				DCD75C3F2FF0D6D900991A6D /* Defer */,
+				FA0000000000000000000010 /* SOLID-Principles */,
+			);
+			path = Topics;
+			sourceTree = "<group>";
+		};
+		DCD75C562FF3971400991A6D /* FrameVsBound */ = {
+			isa = PBXGroup;
+			children = (
+				DCD75C572FF3973D00991A6D /* FrameVsBound.storyboard */,
+				DCD75C592FF397B800991A6D /* FrameVsBoundVC.swift */,
+			);
+			path = FrameVsBound;
 			sourceTree = "<group>";
 		};
 		FA0000000000000000000010 /* SOLID-Principles */ = {
@@ -281,6 +303,7 @@
 			files = (
 				DCD75C2E2FEFBC4C00991A6D /* Assets.xcassets in Resources */,
 				DCD75C302FEFBC4C00991A6D /* LaunchScreen.storyboard in Resources */,
+				DCD75C582FF3973D00991A6D /* FrameVsBound.storyboard in Resources */,
 				DCD75C312FEFBC4C00991A6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +317,7 @@
 			files = (
 				DCD75C322FEFBC4C00991A6D /* AppDelegate.swift in Sources */,
 				DCD75C332FEFBC4C00991A6D /* SceneDelegate.swift in Sources */,
+				DCD75C5A2FF397B800991A6D /* FrameVsBoundVC.swift in Sources */,
 				DCD75C342FEFBC4C00991A6D /* ViewController.swift in Sources */,
 				DCD75C3D2FEFD13900991A6D /* Documentation.docc in Sources */,
 			);
